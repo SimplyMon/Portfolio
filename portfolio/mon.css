@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+body {
+  background-image: url("/pic/bg2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.main {
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.logo {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.link {
+  margin-right: 100px;
+}
+.link a {
+  text-decoration: none;
+  margin-left: 34px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.con {
+  background-color: #ff004f;
+  padding: 8px 24px;
+  border-radius: 12px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.content-pic {
+  width: 50%;
+  margin-left: 270px;
+}
+.content-descript {
+  width: 50%;
+  margin-right: 270px;
+}
+.title {
+  margin-bottom: 48px;
+}
+.title h1 {
+  font-size: 62px;
+  font-weight: 700;
+}
+.title p {
+  font-size: 16px;
+  font-weight: 200;
+}
+.description p {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.description a {
+  text-decoration: none;
+  background-color: #ff004f;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 34px;
+  border-radius: 12px;
+}

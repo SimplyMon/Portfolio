@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon</title>
+    <link rel="stylesheet" href="monv2.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/pic/logoo.png" alt="" />
+            <p>mon.dev</p>
+        </div>
+        <div class="link">
+            <a href="">Home</a>
+            <a href="">About Me</a>
+            <a href="">Case Study</a>
+            <a class="con" href="">Let's Connect</a>
+        </div>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="content">
+            <div class="content-pic">
+                <img src="pic/pic1.png" alt="" />
+            </div>
+            <div class="content-descript">
+                <div class="title">
+                    <h1>Simon Pasag</h1>
+                    <p>Front End Developer | Web Designer</p>
+                </div>
+                <div class="description">
+                    <p>
+                        Hi there! I'm Simon Pasag, a passionate third-year BSIT college
+                        student with a keen interest in pursuing a career as a front-end
+                        developer. I'm excited to share my journey and projects with you.
+                    </p>
+                    <a id="cs_btn" href="">Case Study</a>
+                    <div class="contact">
+                        <a href=""><img src="pic/fb.png" alt="" /></a>
+                        <a href=""><img src="pic/mess.png" alt="" /></a>
+                        <a href=""><img src="pic/disc.png" alt="" /></a>
+                        <a href=""><img src="pic/linked.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamMenu = document.querySelector(".ham-menu");
+
+        const offScreenMenu = document.querySelector(".link");
+
+        hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
